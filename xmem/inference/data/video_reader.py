@@ -9,7 +9,7 @@ import torch.nn.functional as F
 from PIL import Image
 import numpy as np
 
-from XMem.dataset.range_transform import im_normalization
+from xmem.dataset.range_transform import im_normalization
 
 
 class VideoReader(Dataset):

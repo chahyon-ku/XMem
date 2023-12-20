@@ -1,8 +1,8 @@
 import torch
 import warnings
 
-from XMem.inference.kv_memory_store import KeyValueMemoryStore
-from XMem.model.memory_util import *
+from xmem.inference.kv_memory_store import KeyValueMemoryStore
+from xmem.model.memory_util import *
 
 
 class MemoryManager:
